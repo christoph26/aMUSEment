@@ -116,7 +116,7 @@ public class MuseConnection {
         public void receiveMuseDataPacket(MuseDataPacket p) {
             switch (p.getPacketType()) {
                 case CONCENTRATION:
-                    //Log.i("CONCENTRATION", p.getValues().toString());
+                    Log.i("CONCENTRATION", p.getValues().toString());
                     if(isRecording) {
                         recording.addSample(p.getValues().get(0));
                     }
@@ -128,29 +128,12 @@ public class MuseConnection {
 
                     break;
                 case HORSESHOE:
-                    Log.i("HORSESHOE", p.getValues().toString());
+                    //Log.i("HORSESHOE", p.getValues().toString());
 
-                        //updateHorseshoeValues(p.getValues());
+                        main.updateHorseshoeValues(p.getValues());
 
                 default:
                     break;
-            }
-        }
-
-        private void updateHorseshoeValues(List horseValues) {
-            final Activity activity = activityRef.get();
-            if (activity != null) {
-                activity.runOnUiThread(new Runnable() {
-                    @Override
-                    public void run() {
-                        Button continueButton =
-                                (Button) activity.findViewById(R.id.continue_button);
-                        continueButton.setVisibility(View.VISIBLE);
-
-                        ProgressBar pb = (ProgressBar) activity.findViewById(R.id.waitingNonZeroIcon);
-                        pb.setVisibility(View.INVISIBLE);
-                    }
-                });
             }
         }
 

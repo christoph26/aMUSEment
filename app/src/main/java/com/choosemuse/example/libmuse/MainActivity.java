@@ -48,16 +48,15 @@ public class MainActivity extends Activity implements OnClickListener {
         Button connectButton = (Button) findViewById(R.id.connect);
         connectButton.setOnClickListener(this);
 
+        refresh();
+
     }
 
     @Override
     public void onClick(View v) {
         Spinner musesSpinner = (Spinner) findViewById(R.id.muses_spinner);
         if (v.getId() == R.id.refresh) {
-            List<String> spinnerItems = museConnection.getAvailableMuses();
-            ArrayAdapter<String> adapterArray = new ArrayAdapter<String>(
-                    this, android.R.layout.simple_spinner_item, spinnerItems);
-            musesSpinner.setAdapter(adapterArray);
+            refresh();
         } else if (v.getId() == R.id.connect) {
             List<Muse> pairedMuses = museConnection.getPairedMuses();
             if (pairedMuses.size() < 1 ||
@@ -113,5 +112,46 @@ public class MainActivity extends Activity implements OnClickListener {
     public void chooseVideoClick(View view) {
         Intent i = new Intent(MainActivity.this,ChooseVideoActivity.class);
         startActivity(i);
+    }
+
+    public void updateHorseshoeValues(final List<Double> horseValues) {
+            this.runOnUiThread(new Runnable() {
+                @Override
+                public void run() {
+                    View horse0 =
+                            (View) findViewById(R.id.horse0);
+                    horse0.setBackgroundColor(getResources().getColor(getColorId((int) horseValues.get(0).doubleValue())));
+                    View horse1 =
+                            (View) findViewById(R.id.horse1);
+                    horse1.setBackgroundColor(getResources().getColor(getColorId((int) horseValues.get(1).doubleValue())));
+                    View horse2 =
+                            (View) findViewById(R.id.horse2);
+                    horse2.setBackgroundColor(getResources().getColor(getColorId((int) horseValues.get(2).doubleValue())));
+                    View horse3 =
+                            (View) findViewById(R.id.horse3);
+                    horse3.setBackgroundColor(getResources().getColor(getColorId((int) horseValues.get(3).doubleValue())));
+
+
+
+                }
+            });
+    }
+
+    private int getColorId(int value) {
+        if (value == 1) {
+            return R.color.green;
+        } else if (value == 2) {
+            return R.color.yellow;
+        } else {
+            return R.color.red;
+        }
+    }
+
+    private void refresh() {
+        Spinner musesSpinner = (Spinner) findViewById(R.id.muses_spinner);
+        List<String> spinnerItems = museConnection.getAvailableMuses();
+        ArrayAdapter<String> adapterArray = new ArrayAdapter<String>(
+                this, android.R.layout.simple_spinner_item, spinnerItems);
+        musesSpinner.setAdapter(adapterArray);
     }
 }
