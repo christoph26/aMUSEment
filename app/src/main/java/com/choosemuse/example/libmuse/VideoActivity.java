@@ -47,9 +47,6 @@ public class VideoActivity extends YouTubeBaseActivity implements YouTubePlayer.
                 @Override
                 public void onVideoEnded() {
                     museConnection.toogleRecord();
-                    Toast.makeText(VideoActivity.this, "" +
-                            museConnection.getRecording().getAverage(), Toast.LENGTH_SHORT).show();
-
                     Intent i = new Intent(VideoActivity.this,ResultActivity.class);
                     startActivity(i);
                 }

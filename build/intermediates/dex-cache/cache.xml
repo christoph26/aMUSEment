@@ -34,7 +34,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="acf8bf6811c193484082cb1aa99d4c04e0cce25d">
+        sha1="ca0c3219a43a9b18c3a562ff217f312276e4664e">
         <dex dex="/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_d0f0931bed274d568a7471a1ccb1ce746fc4a7dc/classes.dex" />
     </item>
     <item

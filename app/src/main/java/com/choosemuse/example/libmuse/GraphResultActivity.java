@@ -5,6 +5,7 @@ import android.graphics.Color;
 import android.os.Bundle;
 
 import com.github.mikephil.charting.charts.LineChart;
+import com.github.mikephil.charting.components.YAxis;
 import com.github.mikephil.charting.data.Entry;
 import com.github.mikephil.charting.data.LineData;
 import com.github.mikephil.charting.data.LineDataSet;
@@ -22,6 +23,11 @@ public class GraphResultActivity extends Activity {
 
         LineChart chart = (LineChart) findViewById(R.id.chart);
 
+        chart.getAxisLeft().setTextColor(Color.WHITE); // left y-axis
+        chart.getXAxis().setTextColor(Color.WHITE);
+        chart.getAxisRight().setDrawAxisLine(false);
+        chart.getAxisRight().setDrawLabels(false);
+
         List<Entry> entries = new ArrayList<Entry>();
         List<Double> raw = MuseConnection.getInstance().getRecording().getSamples();
 
@@ -29,10 +35,11 @@ public class GraphResultActivity extends Activity {
             entries.add(new Entry((float)i, (float)raw.get(i).doubleValue()));
         }
 
-        LineDataSet dataSet = new LineDataSet(entries, "Label"); // add entries to dataset
-        dataSet.setColor(Color.BLUE);
-        dataSet.setValueTextColor(Color.BLUE);
+        LineDataSet dataSet = new LineDataSet(entries, "Score of a muse"); // add entries to dataset
+        dataSet.setColor(Color.WHITE);
+        dataSet.setValueTextColor(Color.WHITE);
         dataSet.setMode(LineDataSet.Mode.CUBIC_BEZIER);
+        dataSet.setCircleRadius(1f);
 
         // styling, .
         LineData lineData = new LineData(dataSet);
