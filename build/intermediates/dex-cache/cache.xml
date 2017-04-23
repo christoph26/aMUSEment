@@ -3,21 +3,48 @@
 
     <item
         is-multidex="true"
-        jar="/home/christoph/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
-        <dex dex="/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.1.1_00a012f164141835c07841dcc8c031a1bc88ec02/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/libs/YouTubeAndroidPlayerApi.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="3c4f96ff493456651cc7bdb0b47e10eb25545a16">
         <dex dex="/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/2/YouTubeAndroidPlayerApi_65a7ca78762a6138422085542eeb5f6d09af7c52/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/christoph/.android/build-cache/7002abcec4e605732f1d1bfc469f0cd64246d4df/output/jars/libs/internal_impl-23.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.1.1_d95b075dd240619f8e6494003466ad1ede927027/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/christoph/.android/build-cache/9b5eb16c6257f3c73d1d90d758b44ae2807cfb0e/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0a311c237e572770294c4c3d2cd46b9db004399a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a46929b833a25cd094ccbc2c94ca75bcdadcb1ca">
+        <dex dex="/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_d0f0931bed274d568a7471a1ccb1ce746fc4a7dc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/christoph/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.1.1_00a012f164141835c07841dcc8c031a1bc88ec02/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -57,15 +84,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="/home/christoph/.android/build-cache/7002abcec4e605732f1d1bfc469f0cd64246d4df/output/jars/libs/internal_impl-23.1.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
-        <dex dex="/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.1.1_d95b075dd240619f8e6494003466ad1ede927027/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/home/christoph/.android/build-cache/7002abcec4e605732f1d1bfc469f0cd64246d4df/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -84,30 +102,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/home/christoph/.android/build-cache/9b5eb16c6257f3c73d1d90d758b44ae2807cfb0e/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
-        <dex dex="/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0a311c237e572770294c4c3d2cd46b9db004399a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/home/christoph/.gradle/caches/modules-2/files-2.1/com.github.PhilJay/MPAndroidChart/v3.0.2/5d4eb08a326bdbd7fbbddc769666898c9936b282/MPAndroidChart-v3.0.2.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="5d4eb08a326bdbd7fbbddc769666898c9936b282">
         <dex dex="/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/MPAndroidChart-v3.0.2_32ab286ef8789f9402f76d7624008587a8230223/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="bf8ac54efa1fabbeea6f9c84eb0be80ea2e135ae">
-        <dex dex="/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_d0f0931bed274d568a7471a1ccb1ce746fc4a7dc/classes.dex" />
     </item>
 
 </items>
