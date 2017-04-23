@@ -93,6 +93,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="/home/christoph/.gradle/caches/modules-2/files-2.1/com.github.PhilJay/MPAndroidChart/v3.0.2/5d4eb08a326bdbd7fbbddc769666898c9936b282/MPAndroidChart-v3.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5d4eb08a326bdbd7fbbddc769666898c9936b282">
+        <dex dex="/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/MPAndroidChart-v3.0.2_32ab286ef8789f9402f76d7624008587a8230223/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"

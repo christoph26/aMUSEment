@@ -22,5 +22,9 @@ public class Recording {
     public double getAverage() {
         return sumVals/countVals;
     }
+
+    public List<Double> getSamples(){
+        return samples;
+    }
 }
 
