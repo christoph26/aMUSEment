@@ -10,6 +10,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.ProgressBar;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -71,6 +72,8 @@ public class MainActivity extends Activity implements OnClickListener {
                     return;
                 }
                 museConnection.configure_library();
+                ProgressBar pb = (ProgressBar) findViewById(R.id.waitingNonZeroIcon);
+                pb.setVisibility(View.VISIBLE);
                 /**
                  * In most cases libmuse native library takes care about
                  * exceptions and recovery mechanism, but native code still
