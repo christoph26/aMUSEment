@@ -18,10 +18,46 @@ public class VideoActivity extends YouTubeBaseActivity implements YouTubePlayer.
     private static final int RECOVERY_REQUEST = 1;
     private YouTubePlayerView youTubeView;
 
+    private MuseConnection museConnection = MuseConnection.getInstance();
+
 
     @Override
     public void onInitializationSuccess(Provider provider, YouTubePlayer player, boolean wasRestored) {
         if (!wasRestored) {
+            player.setPlayerStateChangeListener(new YouTubePlayer.PlayerStateChangeListener() {
+                @Override
+                public void onLoading() {
+
+                }
+
+                @Override
+                public void onLoaded(String s) {
+
+                }
+
+                @Override
+                public void onAdStarted() {
+
+                }
+
+                @Override
+                public void onVideoStarted() {
+                    museConnection.toogleRecord();
+                }
+
+                @Override
+                public void onVideoEnded() {
+                    museConnection.toogleRecord();
+                    Toast.makeText(VideoActivity.this, "" +
+                            museConnection.getRecording().getAverage(), Toast.LENGTH_SHORT).show();
+                }
+
+                @Override
+                public void onError(YouTubePlayer.ErrorReason errorReason) {
+
+                }
+            });
+
 
             player.loadVideo(getIntent().getStringExtra("id")); // Plays https://www.youtube.com/watch?v=fhWaJi1Hsfo
             player.play();
@@ -54,7 +90,5 @@ public class VideoActivity extends YouTubeBaseActivity implements YouTubePlayer.
         setContentView(R.layout.activity_video);
         youTubeView = (YouTubePlayerView) findViewById(R.id.youtube_view);
         youTubeView.initialize(Config.YOUTUBE_API_KEY, this);
-
-
     }
 }

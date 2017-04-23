@@ -12,7 +12,6 @@ import android.widget.ListView;
  */
 
 public class ChooseVideoActivity extends Activity{
-
     ListView list;
     String[] web = {
             "Hackaburg Teaser",
