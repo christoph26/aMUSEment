@@ -36,6 +36,12 @@
         <activity
             android:name="com.choosemuse.example.libmuse.ChooseVideoActivity"
             android:screenOrientation="landscape" />
+
+        <!-- <activity android:name=".DemoConnectActivity" /> -->
+        <activity
+            android:name="com.choosemuse.example.libmuse.ResultActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity android:name="com.choosemuse.example.libmuse.GraphResultActivity" />
     </application>
 
 </manifest>

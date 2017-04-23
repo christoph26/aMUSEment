@@ -20,7 +20,6 @@ public class VideoActivity extends YouTubeBaseActivity implements YouTubePlayer.
 
     private MuseConnection museConnection = MuseConnection.getInstance();
 
-
     @Override
     public void onInitializationSuccess(Provider provider, YouTubePlayer player, boolean wasRestored) {
         if (!wasRestored) {
@@ -50,6 +49,9 @@ public class VideoActivity extends YouTubeBaseActivity implements YouTubePlayer.
                     museConnection.toogleRecord();
                     Toast.makeText(VideoActivity.this, "" +
                             museConnection.getRecording().getAverage(), Toast.LENGTH_SHORT).show();
+
+                    Intent i = new Intent(VideoActivity.this,ResultActivity.class);
+                    startActivity(i);
                 }
 
                 @Override

@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/AndroidManifest.xml:2:1-37:12
+ADDED from /home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/AndroidManifest.xml:2:1-43:12
 	package
 		ADDED from /home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/AndroidManifest.xml:3:5-45
 		INJECTED from /home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/AndroidManifest.xml
@@ -41,7 +41,10 @@ ADDED from /home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app
 		ADDED from /home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/AndroidManifest.xml:12:22-65
 uses-sdk
 ADDED from /home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/AndroidManifest.xml:14:5-16:41
-MERGED from [com.android.support:support-v4:23.1.1] /home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/christoph/.android/build-cache/9b5eb16c6257f3c73d1d90d758b44ae2807cfb0e/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:23.0.1] /home/christoph/.android/build-cache/2d3140fb26244ec4fe6838bd9fea7ae345ad8c4a/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.1.0] /home/christoph/.android/build-cache/5f692882bf313ebff32bcfc632e297a588417bff/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] /home/christoph/.android/build-cache/7002abcec4e605732f1d1bfc469f0cd64246d4df/output/AndroidManifest.xml:20:5-43
 	android:targetSdkVersion
 		ADDED from /home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/AndroidManifest.xml:16:9-38
 		INJECTED from /home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/AndroidManifest.xml
@@ -51,8 +54,11 @@ MERGED from [com.android.support:support-v4:23.1.1] /home/christoph/libmuse_6.0.
 		INJECTED from /home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/AndroidManifest.xml
 		INJECTED from /home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/AndroidManifest.xml
 application
-ADDED from /home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/AndroidManifest.xml:18:5-35:19
-MERGED from [com.android.support:support-v4:23.1.1] /home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
+ADDED from /home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/AndroidManifest.xml:18:5-41:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/christoph/.android/build-cache/9b5eb16c6257f3c73d1d90d758b44ae2807cfb0e/output/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:23.0.1] /home/christoph/.android/build-cache/2d3140fb26244ec4fe6838bd9fea7ae345ad8c4a/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.1.0] /home/christoph/.android/build-cache/5f692882bf313ebff32bcfc632e297a588417bff/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] /home/christoph/.android/build-cache/7002abcec4e605732f1d1bfc469f0cd64246d4df/output/AndroidManifest.xml:22:5-20
 	android:label
 		ADDED from /home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/AndroidManifest.xml:21:9-41
 	android:allowBackup
@@ -91,3 +97,13 @@ ADDED from /home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app
 		ADDED from /home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/AndroidManifest.xml:34:55-92
 	android:name
 		ADDED from /home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/AndroidManifest.xml:34:19-54
+activity#com.choosemuse.example.libmuse.ResultActivity
+ADDED from /home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/AndroidManifest.xml:37:8-39:61
+	android:configChanges
+		ADDED from /home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/AndroidManifest.xml:39:12-58
+	android:name
+		ADDED from /home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/AndroidManifest.xml:38:12-42
+activity#com.choosemuse.example.libmuse.GraphResultActivity
+ADDED from /home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/AndroidManifest.xml:40:9-57
+	android:name
+		ADDED from /home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/AndroidManifest.xml:40:19-54
