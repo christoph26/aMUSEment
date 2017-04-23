@@ -61,10 +61,6 @@ public class ResultActivity extends Activity {
 
     }
 
-    public void onSwipeLeft(){
-
-    }
-
 
     public void graphClick(View view) {
         Intent i = new Intent(ResultActivity.this,GraphResultActivity.class);
