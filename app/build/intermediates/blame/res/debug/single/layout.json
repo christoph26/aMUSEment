@@ -2,5 +2,17 @@
     {
         "merged": "/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
         "source": "/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/build/intermediates/res/merged/debug/layout/activity_choose_video.xml",
+        "source": "/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/res/layout/activity_choose_video.xml"
+    },
+    {
+        "merged": "/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/build/intermediates/res/merged/debug/layout/activity_video.xml",
+        "source": "/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/res/layout/activity_video.xml"
+    },
+    {
+        "merged": "/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/build/intermediates/res/merged/debug/layout/list_single.xml",
+        "source": "/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/res/layout/list_single.xml"
     }
 ]

@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/ic_launcher_round.png",
+        "source": "/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/test.png",
+        "source": "/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/res/mipmap-xxxhdpi/test.png"
+    },
+    {
+        "merged": "/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/ic_launcher.png",
+        "source": "/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/hackaburg.png",
+        "source": "/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/res/mipmap-xxxhdpi/hackaburg.png"
+    },
+    {
+        "merged": "/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/starwars.png",
+        "source": "/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/res/mipmap-xxxhdpi/starwars.png"
+    },
+    {
+        "merged": "/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/guardians.png",
+        "source": "/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/res/mipmap-xxxhdpi/guardians.png"
+    }
+]

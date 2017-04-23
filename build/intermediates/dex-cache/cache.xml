@@ -1,2 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
+
+    <item
+        jar="/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/libs/YouTubeAndroidPlayerApi.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="3c4f96ff493456651cc7bdb0b47e10eb25545a16">
+        <dex dex="/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/build/intermediates/pre-dexed/debug/YouTubeAndroidPlayerApi_65a7ca78762a6138422085542eeb5f6d09af7c52.jar" />
+    </item>
+
+</items>

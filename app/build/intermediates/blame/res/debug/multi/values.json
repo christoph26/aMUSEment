@@ -11,14 +11,7 @@
                     "endOffset": 108
                 },
                 "from": {
-                    "file": "/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/res/values/dimens.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 89,
-                        "endColumn": 57,
-                        "endOffset": 142
-                    }
+                    "file": "/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/res/values/dimens.xml"
                 }
             },
             {
@@ -30,14 +23,7 @@
                     "endOffset": 164
                 },
                 "from": {
-                    "file": "/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/res/values/dimens.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 147,
-                        "endColumn": 55,
-                        "endOffset": 198
-                    }
+                    "file": "/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/res/values/dimens.xml"
                 }
             },
             {
@@ -49,14 +35,7 @@
                     "endOffset": 218
                 },
                 "from": {
-                    "file": "/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 12,
-                        "startColumn": 4,
-                        "startOffset": 513,
-                        "endColumn": 53,
-                        "endOffset": 562
-                    }
+                    "file": "/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/res/values/strings.xml"
                 }
             },
             {
@@ -68,14 +47,7 @@
                     "endOffset": 271
                 },
                 "from": {
-                    "file": "/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 165,
-                        "endColumn": 52,
-                        "endOffset": 213
-                    }
+                    "file": "/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/res/values/strings.xml"
                 }
             },
             {
@@ -87,14 +59,7 @@
                     "endOffset": 327
                 },
                 "from": {
-                    "file": "/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 56,
-                        "endColumn": 55,
-                        "endOffset": 107
-                    }
+                    "file": "/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/res/values/strings.xml"
                 }
             },
             {
@@ -106,14 +71,7 @@
                     "endOffset": 379
                 },
                 "from": {
-                    "file": "/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 15,
-                        "startColumn": 4,
-                        "startOffset": 658,
-                        "endColumn": 51,
-                        "endOffset": 705
-                    }
+                    "file": "/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/res/values/strings.xml"
                 }
             },
             {
@@ -125,14 +83,7 @@
                     "endOffset": 441
                 },
                 "from": {
-                    "file": "/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 11,
-                        "startColumn": 4,
-                        "startOffset": 451,
-                        "endColumn": 61,
-                        "endOffset": 508
-                    }
+                    "file": "/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/res/values/strings.xml"
                 }
             },
             {
@@ -144,14 +95,7 @@
                     "endOffset": 485
                 },
                 "from": {
-                    "file": "/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 218,
-                        "endColumn": 43,
-                        "endOffset": 257
-                    }
+                    "file": "/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/res/values/strings.xml"
                 }
             },
             {
@@ -163,14 +107,7 @@
                     "endOffset": 535
                 },
                 "from": {
-                    "file": "/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 8,
-                        "startColumn": 4,
-                        "startOffset": 316,
-                        "endColumn": 49,
-                        "endOffset": 361
-                    }
+                    "file": "/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/res/values/strings.xml"
                 }
             },
             {
@@ -182,14 +119,7 @@
                     "endOffset": 573
                 },
                 "from": {
-                    "file": "/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 18,
-                        "startColumn": 4,
-                        "startOffset": 814,
-                        "endColumn": 37,
-                        "endOffset": 847
-                    }
+                    "file": "/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/res/values/strings.xml"
                 }
             },
             {
@@ -201,14 +131,7 @@
                     "endOffset": 626
                 },
                 "from": {
-                    "file": "/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 112,
-                        "endColumn": 52,
-                        "endOffset": 160
-                    }
+                    "file": "/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/res/values/strings.xml"
                 }
             },
             {
@@ -220,14 +143,7 @@
                     "endOffset": 667
                 },
                 "from": {
-                    "file": "/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 10,
-                        "startColumn": 4,
-                        "startOffset": 410,
-                        "endColumn": 40,
-                        "endOffset": 446
-                    }
+                    "file": "/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/res/values/strings.xml"
                 }
             },
             {
@@ -239,14 +155,7 @@
                     "endOffset": 724
                 },
                 "from": {
-                    "file": "/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 16,
-                        "startColumn": 4,
-                        "startOffset": 710,
-                        "endColumn": 56,
-                        "endOffset": 762
-                    }
+                    "file": "/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/res/values/strings.xml"
                 }
             },
             {
@@ -258,14 +167,7 @@
                     "endOffset": 778
                 },
                 "from": {
-                    "file": "/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 19,
-                        "startColumn": 4,
-                        "startOffset": 852,
-                        "endColumn": 53,
-                        "endOffset": 901
-                    }
+                    "file": "/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/res/values/strings.xml"
                 }
             },
             {
@@ -277,14 +179,7 @@
                     "endOffset": 825
                 },
                 "from": {
-                    "file": "/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 17,
-                        "startColumn": 4,
-                        "startOffset": 767,
-                        "endColumn": 46,
-                        "endOffset": 809
-                    }
+                    "file": "/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/res/values/strings.xml"
                 }
             },
             {
@@ -296,14 +191,7 @@
                     "endOffset": 1067
                 },
                 "from": {
-                    "file": "/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 22,
-                        "startColumn": 4,
-                        "startOffset": 986,
-                        "endColumn": 241,
-                        "endOffset": 1223
-                    }
+                    "file": "/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/res/values/strings.xml"
                 }
             },
             {
@@ -315,14 +203,7 @@
                     "endOffset": 1146
                 },
                 "from": {
-                    "file": "/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 21,
-                        "startColumn": 4,
-                        "startOffset": 907,
-                        "endColumn": 78,
-                        "endOffset": 981
-                    }
+                    "file": "/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/res/values/strings.xml"
                 }
             },
             {
@@ -334,14 +215,7 @@
                     "endOffset": 1216
                 },
                 "from": {
-                    "file": "/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 23,
-                        "startColumn": 4,
-                        "startOffset": 1228,
-                        "endColumn": 69,
-                        "endOffset": 1293
-                    }
+                    "file": "/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/res/values/strings.xml"
                 }
             },
             {
@@ -349,17 +223,17 @@
                     "startLine": 20,
                     "startColumn": 4,
                     "startOffset": 1221,
-                    "endColumn": 43,
-                    "endOffset": 1260
+                    "endColumn": 78,
+                    "endOffset": 1295
                 },
                 "from": {
                     "file": "/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/res/values/strings.xml",
                     "position": {
-                        "startLine": 9,
+                        "startLine": 25,
                         "startColumn": 4,
-                        "startOffset": 366,
-                        "endColumn": 43,
-                        "endOffset": 405
+                        "startOffset": 1299,
+                        "endColumn": 78,
+                        "endOffset": 1373
                     }
                 }
             },
@@ -367,37 +241,30 @@
                 "to": {
                     "startLine": 21,
                     "startColumn": 4,
-                    "startOffset": 1265,
-                    "endColumn": 53,
-                    "endOffset": 1314
+                    "startOffset": 1300,
+                    "endColumn": 43,
+                    "endOffset": 1339
                 },
                 "from": {
-                    "file": "/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 262,
-                        "endColumn": 53,
-                        "endOffset": 311
-                    }
+                    "file": "/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 22,
                     "startColumn": 4,
-                    "startOffset": 1319,
-                    "endColumn": 45,
-                    "endOffset": 1360
+                    "startOffset": 1344,
+                    "endColumn": 43,
+                    "endOffset": 1383
                 },
                 "from": {
                     "file": "/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/res/values/strings.xml",
                     "position": {
-                        "startLine": 14,
+                        "startLine": 26,
                         "startColumn": 4,
-                        "startOffset": 612,
-                        "endColumn": 45,
-                        "endOffset": 653
+                        "startOffset": 1378,
+                        "endColumn": 43,
+                        "endOffset": 1417
                     }
                 }
             },
@@ -405,18 +272,18 @@
                 "to": {
                     "startLine": 23,
                     "startColumn": 4,
-                    "startOffset": 1365,
-                    "endColumn": 44,
-                    "endOffset": 1405
+                    "startOffset": 1388,
+                    "endColumn": 48,
+                    "endOffset": 1432
                 },
                 "from": {
                     "file": "/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/res/values/strings.xml",
                     "position": {
-                        "startLine": 13,
+                        "startLine": 27,
                         "startColumn": 4,
-                        "startOffset": 567,
-                        "endColumn": 44,
-                        "endOffset": 607
+                        "startOffset": 1422,
+                        "endColumn": 48,
+                        "endOffset": 1466
                     }
                 }
             },
@@ -424,42 +291,62 @@
                 "to": {
                     "startLine": 24,
                     "startColumn": 4,
-                    "startOffset": 1410,
-                    "endLine": 30,
-                    "endColumn": 12,
-                    "endOffset": 1696
+                    "startOffset": 1437,
+                    "endColumn": 53,
+                    "endOffset": 1486
                 },
                 "from": {
-                    "file": "/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/res/values/styles.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 186,
-                        "endLine": 12,
-                        "endColumn": 12,
-                        "endOffset": 472
-                    }
+                    "file": "/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
-                    "startLine": 31,
+                    "startLine": 25,
                     "startColumn": 4,
-                    "startOffset": 1701,
-                    "endLine": 33,
-                    "endColumn": 12,
-                    "endOffset": 1856
+                    "startOffset": 1491,
+                    "endColumn": 45,
+                    "endOffset": 1532
                 },
                 "from": {
-                    "file": "/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/res/values/styles.xml",
-                    "position": {
-                        "startLine": 15,
-                        "startColumn": 4,
-                        "startOffset": 510,
-                        "endLine": 17,
-                        "endColumn": 12,
-                        "endOffset": 665
-                    }
+                    "file": "/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 1537,
+                    "endColumn": 44,
+                    "endOffset": 1577
+                },
+                "from": {
+                    "file": "/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 1582,
+                    "endLine": 33,
+                    "endColumn": 12,
+                    "endOffset": 1868
+                },
+                "from": {
+                    "file": "/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/res/values/styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 1873,
+                    "endLine": 36,
+                    "endColumn": 12,
+                    "endOffset": 2028
+                },
+                "from": {
+                    "file": "/home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/res/values/styles.xml"
                 }
             }
         ]

@@ -1,38 +1,7 @@
-/**
- * Example of using libmuse library on android.
- * Interaxon, Inc. 2015
- */
-
 package com.choosemuse.example.libmuse;
 
-import java.io.File;
-import java.lang.ref.WeakReference;
-import java.util.Timer;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.TimerTask;
-import java.util.*;
-
-import android.app.ProgressDialog;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-import android.os.Bundle;
 import android.app.Activity;
-import android.view.View;
-import android.widget.Button;
-import android.widget.ImageView;
-
-import java.io.IOException;
-import java.io.InputStream;
-
-import android.app.Activity;
-import android.app.NotificationManager;
-import android.media.Ringtone;
-import android.media.RingtoneManager;
-import android.net.Uri;
 import android.os.Bundle;
-import android.os.Environment;
-import android.support.v4.app.NotificationCompat;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -40,19 +9,11 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
-import android.widget.ImageButton;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
-import android.widget.ToggleButton;
-import android.app.ProgressDialog;
-import android.os.Handler;
 
-
-import com.interaxon.libmuse.Accelerometer;
 import com.interaxon.libmuse.ConnectionState;
-import com.interaxon.libmuse.Eeg;
-import com.interaxon.libmuse.LibMuseVersion;
 import com.interaxon.libmuse.Muse;
 import com.interaxon.libmuse.MuseArtifactPacket;
 import com.interaxon.libmuse.MuseConnectionListener;
@@ -64,32 +25,10 @@ import com.interaxon.libmuse.MuseManager;
 import com.interaxon.libmuse.MusePreset;
 import com.interaxon.libmuse.MuseVersion;
 
+import java.lang.ref.WeakReference;
+import java.util.ArrayList;
+import java.util.List;
 
-
-/**
- * In this simple example MainActivity implements 2 MuseHeadband listeners
- * and updates UI when data from Muse is received. Similarly you can implement
- * listers for other data or register same listener to listen for different type
- * of data.
- * For simplicity we create Listeners as inner classes of MainActivity. We pass
- * reference to MainActivity as we want listeners to update UI thread in this
- * example app.
- * You can also connect multiple muses to the same phone and register same
- * listener to listen for data from different muses. In this case you will
- * have to provide synchronization for data members you are using inside
- * your listener.
- *
- * Usage instructions:
- * 1. Enable bluetooth on your device
- * 2. Pair your device with muse
- * 3. Run this project
- * 4. Press Refresh. It should display all paired Muses in Spinner
- * 5. Make sure Muse headband is waiting for connection and press connect.
- * It may take up to 10 sec in some cases.
- * 6. You should see EEG and accelerometer data as well as connection status,
- * Version information and MuseElements (BETA, beta, theta, delta, gamma waves)
- * on the screen.
- */
 public class MainActivity extends Activity implements OnClickListener {
     private boolean isRecording = false;
     private Recording recording = null;
@@ -122,10 +61,6 @@ public class MainActivity extends Activity implements OnClickListener {
                     " " + status;
             Log.i("Muse Headband", full);
             Activity activity = activityRef.get();
-            // UI thread is used here only because we need to update
-            // TextView values. You don't have to use another thread, unless
-            // you want to run disconnect() or connect() from connection packet
-            // handler. In this case creating another thread is required.
             if (activity != null) {
                 activity.runOnUiThread(new Runnable() {
                     @Override
@@ -192,7 +127,7 @@ public class MainActivity extends Activity implements OnClickListener {
         @Override
         public void receiveMuseArtifactPacket(MuseArtifactPacket p) {
             if (p.getHeadbandOn() && p.getBlink()) {
-                Log.i("Artifacts", "blink");
+             //   Log.i("Artifacts", "blink");
             }
         }
 
@@ -274,9 +209,6 @@ public class MainActivity extends Activity implements OnClickListener {
                 MuseDataPacketType.CONCENTRATION);
         muse.registerDataListener(dataListener,
                 MuseDataPacketType.ARTIFACTS);
-        muse.registerDataListener(dataListener,
-                MuseDataPacketType.BATTERY);
-        //muse.registerDataListener(dataListener, MuseDataPacketType.MELLOW);
         muse.setPreset(MusePreset.PRESET_14);
         muse.enableDataTransmission(dataTransmission);
     }
@@ -301,51 +233,3 @@ public class MainActivity extends Activity implements OnClickListener {
     }
 
 }
-
-//// Sets an ID for the notification
-//int mNotificationId = 001;
-//// Gets an instance of the NotificationManager service
-//NotificationManager mNotifyMgr =
-//        (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
-//// Builds the notification and issues it.
-//mNotifyMgr.notify(mNotificationId, mBuilder.build());
-//        Spinner musesSpinner = (Spinner) findViewById(R.id.muses_spinner);
-//        try {
-//        Uri notification = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
-//        Ringtone r = RingtoneManager.getRingtone(getApplicationContext(), notification);
-//        r.play();
-//        } catch (Exception e) {
-//        e.printStackTrace();
-//        }
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//        with vibrate:
-//
-//
-//
-
-//// Sets an ID for the notification
-//        int mNotificationId = 001;
-//// Gets an instance of the NotificationManager service
-//        NotificationManager mNotifyMgr =
-//        (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
-//// Builds the notification and issues it.
-//        mNotifyMgr.notify(mNotificationId, mBuilder.build());
-//        Spinner musesSpinner = (Spinner) findViewById(R.id.muses_spinner);
-//        try {
-//        Uri notification = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
-//        Ringtone r = RingtoneManager.getRingtone(getApplicationContext(), notification);
-//        mBuilder.setVibrate(new long[] { 1000, 1000, 1000, 1000, 1000 });
-//        r.play();
-//        } catch (Exception e) {
-//        e.printStackTrace();
-//        }

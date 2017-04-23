@@ -27,4 +27,5 @@ dependencies {
     //compile files('libs/libmuse_android.jar')
     //compile files('libs/libmuseandroid.jar')
     compile 'com.github.neuralcubes:libmuse:1.3.0'
+    compile files('libs/YouTubeAndroidPlayerApi.jar')
 }
