@@ -94,9 +94,11 @@ ADDED from /home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app
 	android:name
 		ADDED from /home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/AndroidManifest.xml:33:19-48
 activity#com.choosemuse.example.libmuse.ChooseVideoActivity
-ADDED from /home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/AndroidManifest.xml:36:9-95
+ADDED from /home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/AndroidManifest.xml:36:9-123
 	android:screenOrientation
 		ADDED from /home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/AndroidManifest.xml:36:55-92
+	android:label
+		ADDED from /home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/AndroidManifest.xml:36:93-121
 	android:name
 		ADDED from /home/christoph/libmuse_6.0.0/android/examples/TestLibMuseAndroid/app/src/main/AndroidManifest.xml:36:19-54
 activity#com.choosemuse.example.libmuse.ResultActivity

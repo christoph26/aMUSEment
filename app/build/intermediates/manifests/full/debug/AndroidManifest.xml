@@ -37,6 +37,7 @@
         </activity>
         <activity
             android:name="com.choosemuse.example.libmuse.ChooseVideoActivity"
+            android:label="Choose video"
             android:screenOrientation="landscape" />
 
         <!-- <activity android:name=".DemoConnectActivity" /> -->
